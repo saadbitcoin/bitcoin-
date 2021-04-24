@@ -1,0 +1,1997 @@
+# file-C-Users-hp-Downloads-Bitfonix-HTML-Template-Bitfonix-HTML-Template-index.html
+199.	        @-webkit-keyframes sk-bouncedelay {
+200.	            0%, 80%, 100% {
+201.	                -webkit-transform: scale(0);
+202.	                transform: scale(0);
+203.	                opacity: 0;
+204.	            }
+205.	            40% {
+206.	                -webkit-transform: scale(1);
+207.	                transform: scale(1);
+208.	                opacity: 1;
+209.	            }
+210.	        }
+211.	        @keyframes sk-bouncedelay {
+212.	            0%, 80%, 100% {
+213.	                -webkit-transform: scale(0);
+214.	                transform: scale(0);
+215.	                opacity: 0;
+216.	            }
+217.	            40% {
+218.	                -webkit-transform: scale(1);
+219.	                transform: scale(1);
+220.	                opacity: 1;
+221.	            }
+222.	        }
+223.		</style>
+224.	</head>
+225.	<body>
+226.		<div class="ct-cap">
+227.			<header>
+228.				<div class="ct-label" data-i18n="offline" id="offline_label"></div>
+229.			</header>
+230.			<div class="ct-cap__body" id="offline">
+231.				<h2 data-i18n="no_connection_title"></h2>
+232.				<p data-i18n="no_connection_text"></p>
+233.			</div>
+234.			<div class="ct-cap__body" id="unavailable">
+235.				<h2 data-i18n="unavailable_title"></h2>
+236.				<p data-i18n="unavailable_title_text"></p>
+237.				<div class="ct-cap__button" data-i18n="restart"></div>
+238.			</div>
+239.			<footer></footer>
+240.		</div>
+241.		<div class="ct-cap-loader show" id="loader">
+242.			<div class="spinner">
+243.				<div class="spinner__item1"></div>
+244.				<div class="spinner__item2"></div>
+245.				<div class="spinner__item3"></div>
+246.				<div class="spinner__item4"></div>
+247.			</div>
+248.		</div>
+249.	
+250.		<script src='js/i18next.js'></script>
+251.		<script src='js/init.js' type="module"></script>
+252.	</body>
+253.	</html>
+254.	?? ???? ???? ????? ????? ?? ????? ???? ?? SITE123. ???? ?? ???? ???? ????? ????? ?? ?????? ?? ?? ??? ?? ???????.
+255.	???? ??? ??? ??????? ????? ???:
+256.	# ???? ?????? ?? ????? ???????? ? ?? ???? ?????? ????? ?????? ???????? ?????? ??.
+257.	????? ????? ????? ????? ?????? ???? ??? ????? ????? ? ??? ??????? ???????? ??? ??? ???.
+258.	??? ??? ???? ???? ? ?????? ????? ??? ????? ???? ????? ????? ??.
+259.	??? ??? ???? ?? ????? ???? ????? ???????? ?? ????? ???? ???? ????? ????? ?? ? ????? ?????? ?????? ???? ???.
+260.	# ????? ???????? ?? ????? ???????? ? ???? ????? ??????? ????? ??.
+261.	?? ????? ????? ??????? ? ???? ??????? ?????????? ?????? ???? ???? ??.
+262.	????? ????? ????? ????? ?????? ?????? ???????? ?????? ????? ????? ??? ??????? ???????? ??????? ???????? ??????????? ??? ??? ???.
+263.	# ?????? ??????? ?? ????? ???? ????? ????? ??.
+264.	?? ????? ??????? "???????" ? ????? ????? ????? ???? ????? ????? ?? ?? ???? ?????? ????? ????? ?????? ? ???? ????? ????????? ???????? ?????? ???? ????? ????? ??.
+265.	????? ????? ????? ??? ???? ????? ????? ?? ?????? ???? ????? ????? ??.
+266.	????? ???? ?????? ?? ???? ????? ????? ?? ???????? ????? ??? ???????? ? ???? ??? ???? ??? ?? ??????? ??????? ?????? ???? ????? ????? ?? ?? ???? ?????????.
+267.	2020-11-04 20:17:16> Program: Starting Squirrel Updater: --install .
+268.	2020-11-04 20:17:16> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+269.	2020-11-04 20:17:16> Program: About to install to: C:\Users\hp\AppData\Local\GitHubDesktop
+270.	2020-11-04 20:17:16> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: ØªØ¹Ø°Ø± Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø¬Ø²Ø¡ Ù…Ù† Ø§Ù„Ù…Ø³Ø§Ø± 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\.betaId'.
+271.	   Ø¹Ù†Ø¯ System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+272.	   Ø¹Ù†Ø¯ System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+273.	   Ø¹Ù†Ø¯ System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+274.	   Ø¹Ù†Ø¯ System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+275.	   Ø¹Ù†Ø¯ System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+276.	   Ø¹Ù†Ø¯ System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+277.	   Ø¹Ù†Ø¯ System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+278.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+279.	2020-11-04 20:17:16> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: ØªØ¹Ø°Ø± Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø¬Ø²Ø¡ Ù…Ù† Ø§Ù„Ù…Ø³Ø§Ø± 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\RELEASES'.
+280.	   Ø¹Ù†Ø¯ System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+281.	   Ø¹Ù†Ø¯ System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+282.	   Ø¹Ù†Ø¯ System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+283.	   Ø¹Ù†Ø¯ Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+284.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+285.	2020-11-04 20:17:16> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+286.	2020-11-04 20:17:16> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+287.	2020-11-04 20:17:17> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\GitHubDesktop\app-2.5.6
+288.	2020-11-04 20:17:19> LogHost: Rigging execution stub for GitHubDesktop_ExecutionStub.exe to C:\Users\hp\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+289.	2020-11-04 20:17:38> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\GitHubDesktop\app-2.5.6\GitHubDesktop.exe]
+290.	2020-11-04 20:17:39> ApplyReleasesImpl: Starting fixPinnedExecutables
+291.	2020-11-04 20:17:39> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+292.	2020-11-04 20:17:39> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+293.	2020-11-04 20:17:39> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+294.	2020-11-04 20:17:39> ApplyReleasesImpl: Fixing up tray icons
+295.	2020-11-04 20:17:39> ApplyReleasesImpl: cleanDeadVersions: for version 2.5.6
+296.	2020-11-04 20:17:39> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.5.6
+297.	2020-11-05 16:13:24> Program: Starting Squirrel Updater: --install .
+298.	2020-11-05 16:13:25> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+299.	2020-11-05 16:13:25> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+300.	2020-11-05 16:13:25> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+301.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+302.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+303.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+304.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+305.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+306.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+307.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+308.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+309.	2020-11-05 16:13:25> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+310.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+311.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+312.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+313.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+314.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+315.	2020-11-05 16:13:25> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+316.	2020-11-05 16:13:25> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+317.	2020-11-05 16:13:31> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+318.	2020-11-05 16:13:47> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+319.	2020-11-05 16:13:54> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+320.	2020-11-05 16:13:58> ApplyReleasesImpl: Starting fixPinnedExecutables
+321.	2020-11-05 16:13:58> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+322.	2020-11-05 16:13:58> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+323.	2020-11-05 16:13:58> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+324.	2020-11-05 16:13:58> ApplyReleasesImpl: Fixing up tray icons
+325.	2020-11-05 16:13:58> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+326.	2020-11-05 16:13:58> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+327.	2020-11-05 19:35:14> Program: Starting Squirrel Updater: --install .
+328.	2020-11-05 19:35:14> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+329.	2020-11-05 19:35:14> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+330.	2020-11-05 19:35:14> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+331.	2020-11-05 19:35:15> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+332.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+333.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+334.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+335.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+336.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+337.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+338.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+339.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+340.	2020-11-05 19:35:15> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+341.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+342.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+343.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+344.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+345.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+346.	2020-11-05 19:35:15> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+347.	2020-11-05 19:35:15> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+348.	2020-11-05 19:35:16> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+349.	2020-11-05 19:35:24> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+350.	2020-11-05 19:35:28> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+351.	2020-11-05 19:35:31> ApplyReleasesImpl: Starting fixPinnedExecutables
+352.	2020-11-05 19:35:31> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+353.	2020-11-05 19:35:31> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+354.	2020-11-05 19:35:31> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+355.	2020-11-05 19:35:31> ApplyReleasesImpl: Fixing up tray icons
+356.	2020-11-05 19:35:31> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+357.	2020-11-05 19:35:31> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+358.	2020-11-06 10:29:00> Program: Starting Squirrel Updater: --install .
+359.	2020-11-06 10:29:00> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+360.	2020-11-06 10:29:00> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+361.	2020-11-06 10:29:00> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+362.	2020-11-06 10:29:01> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+363.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+364.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+365.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+366.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+367.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+368.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+369.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+370.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+371.	2020-11-06 10:29:01> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+372.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+373.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+374.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+375.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+376.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+377.	2020-11-06 10:29:01> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+378.	2020-11-06 10:29:01> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+379.	2020-11-06 10:29:02> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+380.	2020-11-06 10:29:10> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+381.	2020-11-06 10:29:14> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+382.	2020-11-06 10:29:17> ApplyReleasesImpl: Starting fixPinnedExecutables
+383.	2020-11-06 10:29:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+384.	2020-11-06 10:29:17> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+385.	2020-11-06 10:29:17> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+386.	2020-11-06 10:29:17> ApplyReleasesImpl: Fixing up tray icons
+387.	2020-11-06 10:29:17> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+388.	2020-11-06 10:29:17> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+389.	2020-11-08 13:18:28> Program: Starting Squirrel Updater: --install .
+390.	2020-11-08 13:18:28> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+391.	2020-11-08 13:18:28> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+392.	2020-11-08 13:18:28> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+393.	2020-11-08 13:18:28> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+394.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+395.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+396.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+397.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+398.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+399.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+400.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+401.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+402.	2020-11-08 13:18:28> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+403.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+404.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+405.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+406.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+407.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+408.	2020-11-08 13:18:28> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+409.	2020-11-08 13:18:29> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+410.	2020-11-08 13:18:30> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+411.	2020-11-08 13:18:37> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+412.	2020-11-08 13:18:41> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+413.	2020-11-08 13:18:43> ApplyReleasesImpl: Starting fixPinnedExecutables
+414.	2020-11-08 13:18:43> ApplyReleasesImpl: Examining Pin: facebook.lnk
+415.	2020-11-08 13:18:43> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+416.	2020-11-08 13:18:43> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+417.	2020-11-08 13:18:43> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+418.	2020-11-08 13:18:43> ApplyReleasesImpl: Examining Pin: Opera Browser.lnk
+419.	2020-11-08 13:18:43> ApplyReleasesImpl: Fixing up tray icons
+420.	2020-11-08 13:18:43> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+421.	2020-11-08 13:18:43> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+422.	2020-12-21 22:44:04> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+423.	2020-12-21 22:44:05> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+424.	2020-12-21 22:44:05> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+425.	2020-12-21 22:44:05> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+426.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+427.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+428.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+429.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+430.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+431.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+432.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+433.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+434.	2020-12-21 22:44:05> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+435.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+436.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+437.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+438.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+439.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+440.	2020-12-21 22:44:05> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+441.	2020-12-21 22:44:05> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+442.	2020-12-21 22:44:05> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+443.	2020-12-21 22:44:14> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+444.	2020-12-21 22:44:17> ApplyReleasesImpl: Starting fixPinnedExecutables
+445.	2020-12-21 22:44:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+446.	2020-12-21 22:44:17> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+447.	2020-12-21 22:44:17> ApplyReleasesImpl: Fixing up tray icons
+448.	2020-12-21 22:44:17> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+449.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+450.	2020-12-21 22:44:17> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+451.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+452.	2020-12-21 22:44:17> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+453.	2020-12-21 22:44:17> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+454.	2020-12-21 22:44:20> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+455.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+456.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+457.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+458.	--- End of stack trace from previous location where exception was thrown ---
+459.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+460.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+461.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+462.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+463.	2020-12-24 12:25:50> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+464.	2020-12-24 12:25:50> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+465.	2020-12-24 12:25:50> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+466.	2020-12-24 12:25:50> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+467.	2020-12-24 12:25:51> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+468.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+469.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+470.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+471.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+472.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+473.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+474.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+475.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+476.	2020-12-24 12:25:51> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+477.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+478.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+479.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+480.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+481.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+482.	2020-12-24 12:25:51> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+483.	2020-12-24 12:25:51> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+484.	2020-12-24 12:25:51> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+485.	2020-12-24 12:25:58> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+486.	2020-12-24 12:26:00> ApplyReleasesImpl: Starting fixPinnedExecutables
+487.	2020-12-24 12:26:00> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+488.	2020-12-24 12:26:00> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+489.	2020-12-24 12:26:00> ApplyReleasesImpl: Fixing up tray icons
+490.	2020-12-24 12:26:00> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+491.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+492.	2020-12-24 12:26:00> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+493.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+494.	2020-12-24 12:26:00> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+495.	2020-12-24 12:26:00> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+496.	2020-12-24 12:26:15> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+497.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+498.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+499.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+500.	--- End of stack trace from previous location where exception was thrown ---
+501.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+502.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+503.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+504.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+505.	2020-12-24 12:34:09> Program: Starting Squirrel Updater: --install .
+506.	2020-12-24 12:34:09> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+507.	2020-12-24 12:34:09> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+508.	2020-12-24 12:34:09> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+509.	2020-12-24 12:34:09> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+510.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+511.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+512.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+513.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+514.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+515.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+516.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+517.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+518.	2020-12-24 12:34:09> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+519.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+520.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+521.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+522.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+523.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+524.	2020-12-24 12:34:09> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+525.	2020-12-24 12:34:10> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+526.	2020-12-24 12:34:10> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+527.	2020-12-24 12:34:15> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+528.	2020-12-24 12:34:17> ApplyReleasesImpl: Starting fixPinnedExecutables
+529.	2020-12-24 12:34:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+530.	2020-12-24 12:34:17> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+531.	2020-12-24 12:34:17> ApplyReleasesImpl: Fixing up tray icons
+532.	2020-12-24 12:34:17> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+533.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+534.	2020-12-24 12:34:17> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+535.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+536.	2020-12-24 12:34:17> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+537.	2020-12-24 12:34:17> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+538.	2020-12-24 12:34:21> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+539.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+540.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+541.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+542.	--- End of stack trace from previous location where exception was thrown ---
+543.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+544.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+545.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+546.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+547.	2020-12-24 16:20:34> Program: Starting Squirrel Updater: --install .
+548.	2020-12-24 16:20:34> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+549.	2020-12-24 16:20:34> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+550.	2020-12-24 16:20:34> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+551.	2020-12-24 16:20:35> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+552.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+553.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+554.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+555.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+556.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+557.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+558.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+559.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+560.	2020-12-24 16:20:35> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+561.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+562.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+563.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+564.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+565.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+566.	2020-12-24 16:20:35> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+567.	2020-12-24 16:20:35> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+568.	2020-12-24 16:20:35> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+569.	2020-12-24 16:20:40> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+570.	2020-12-24 16:20:42> ApplyReleasesImpl: Starting fixPinnedExecutables
+571.	2020-12-24 16:20:42> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+572.	2020-12-24 16:20:42> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+573.	2020-12-24 16:20:42> ApplyReleasesImpl: Fixing up tray icons
+574.	2020-12-24 16:20:42> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+575.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+576.	2020-12-24 16:20:42> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+577.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+578.	2020-12-24 16:20:42> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+579.	2020-12-24 16:20:42> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+580.	2020-12-24 16:20:43> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+581.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+582.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+583.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+584.	--- End of stack trace from previous location where exception was thrown ---
+585.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+586.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+587.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+588.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+589.	2020-12-26 00:59:04> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+590.	2020-12-26 00:59:05> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+591.	2020-12-26 00:59:05> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+592.	2020-12-26 00:59:05> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+593.	2020-12-26 00:59:05> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+594.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+595.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+596.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+597.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+598.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+599.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+600.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+601.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+602.	2020-12-26 00:59:05> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+603.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+604.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+605.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+606.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+607.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+608.	2020-12-26 00:59:05> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+609.	2020-12-26 00:59:05> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+610.	2020-12-26 00:59:06> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+611.	2020-12-26 00:59:14> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+612.	2020-12-26 00:59:17> ApplyReleasesImpl: Starting fixPinnedExecutables
+613.	2020-12-26 00:59:17> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+614.	2020-12-26 00:59:17> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+615.	2020-12-26 00:59:17> ApplyReleasesImpl: Fixing up tray icons
+616.	2020-12-26 00:59:17> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+617.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+618.	2020-12-26 00:59:17> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+619.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+620.	2020-12-26 00:59:17> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+621.	2020-12-26 00:59:17> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+622.	2020-12-26 00:59:19> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+623.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+624.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+625.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+626.	--- End of stack trace from previous location where exception was thrown ---
+627.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+628.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+629.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+630.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+631.	2020-12-27 10:58:14> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+632.	2020-12-27 10:58:14> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+633.	2020-12-27 10:58:14> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+634.	2020-12-27 10:58:14> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+635.	2020-12-27 10:58:14> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: ØªØ¹Ø°Ø± Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø¬Ø²Ø¡ Ù…Ù† Ø§Ù„Ù…Ø³Ø§Ø± 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+636.	   Ø¹Ù†Ø¯ System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+637.	   Ø¹Ù†Ø¯ System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+638.	   Ø¹Ù†Ø¯ System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+639.	   Ø¹Ù†Ø¯ System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+640.	   Ø¹Ù†Ø¯ System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+641.	   Ø¹Ù†Ø¯ System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+642.	   Ø¹Ù†Ø¯ System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+643.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+644.	2020-12-27 10:58:14> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: ØªØ¹Ø°Ø± Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„Ù‰ Ø¬Ø²Ø¡ Ù…Ù† Ø§Ù„Ù…Ø³Ø§Ø± 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+645.	   Ø¹Ù†Ø¯ System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+646.	   Ø¹Ù†Ø¯ System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+647.	   Ø¹Ù†Ø¯ System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+648.	   Ø¹Ù†Ø¯ Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+649.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+650.	2020-12-27 10:58:14> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+651.	2020-12-27 10:58:14> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+652.	2020-12-27 10:58:15> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+653.	2020-12-27 10:58:21> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+654.	2020-12-27 10:58:22> ApplyReleasesImpl: Starting fixPinnedExecutables
+655.	2020-12-27 10:58:22> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+656.	2020-12-27 10:58:22> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+657.	2020-12-27 10:58:22> ApplyReleasesImpl: Fixing up tray icons
+658.	2020-12-27 10:58:22> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Ù„Ù… ÙŠØªÙ… ØªØ¹ÙŠÙŠÙ† Ù…Ø±Ø¬Ø¹ ÙƒØ§Ø¦Ù† Ù„Ù…Ø«ÙŠÙ„ ÙƒØ§Ø¦Ù†.
+659.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+660.	2020-12-27 10:58:22> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Ù„Ù… ÙŠØªÙ… ØªØ¹ÙŠÙŠÙ† Ù…Ø±Ø¬Ø¹ ÙƒØ§Ø¦Ù† Ù„Ù…Ø«ÙŠÙ„ ÙƒØ§Ø¦Ù†.
+661.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+662.	2020-12-27 10:58:22> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+663.	2020-12-27 10:58:22> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+664.	2020-12-27 10:58:26> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: Ø£Ø±Ø¬Ø¹ Ø§Ù„Ù…Ù„Ù‚Ù… Ø§Ù„Ø¨Ø¹ÙŠØ¯ Ø§Ù„Ø®Ø·Ø£: (404) Ù„Ù… ÙŠØªÙ… Ø§Ù„Ø¹Ø«ÙˆØ± Ø¹Ù„ÙŠÙ‡.
+665.	   Ø¹Ù†Ø¯ System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+666.	   Ø¹Ù†Ø¯ System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+667.	   Ø¹Ù†Ø¯ System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+668.	--- Ù†Ù‡Ø§ÙŠØ© ØªØªØ¨Ø¹ Ø§Ù„ØªÙƒØ¯Ø³ Ù…Ù† Ø§Ù„Ù…ÙˆÙ‚Ø¹ Ø§Ù„Ø³Ø§Ø¨Ù‚ ÙÙŠ Ù…ÙˆØ¶Ø¹ Ø¸Ù‡ÙˆØ± Ø§Ù„Ø§Ø³ØªØ«Ù†Ø§Ø¡ ---
+669.	   Ø¹Ù†Ø¯ System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+670.	   Ø¹Ù†Ø¯ System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+671.	   Ø¹Ù†Ø¯ System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+672.	   Ø¹Ù†Ø¯ Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+673.	2020-12-28 20:43:43> Program: Starting Squirrel Updater: --install .
+674.	2020-12-28 20:43:43> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+675.	2020-12-28 20:43:43> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+676.	2020-12-28 20:43:43> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+677.	2020-12-28 20:43:44> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+678.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+679.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+680.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+681.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+682.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+683.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+684.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+685.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+686.	2020-12-28 20:43:44> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+687.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+688.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+689.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+690.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+691.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+692.	2020-12-28 20:43:44> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+693.	2020-12-28 20:43:44> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+694.	2020-12-28 20:43:46> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+695.	2020-12-28 20:43:54> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+696.	2020-12-28 20:43:56> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+697.	2020-12-28 20:43:58> ApplyReleasesImpl: Starting fixPinnedExecutables
+698.	2020-12-28 20:43:58> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+699.	2020-12-28 20:43:58> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+700.	2020-12-28 20:43:58> ApplyReleasesImpl: Fixing up tray icons
+701.	2020-12-28 20:43:58> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+702.	2020-12-28 20:43:58> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+703.	2021-01-13 03:36:10> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+704.	2021-01-13 03:36:10> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+705.	2021-01-13 03:36:10> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+706.	2021-01-13 03:36:10> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+707.	2021-01-13 03:36:11> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+708.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+709.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+710.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+711.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+712.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+713.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+714.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+715.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+716.	2021-01-13 03:36:11> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+717.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+718.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+719.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+720.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+721.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+722.	2021-01-13 03:36:11> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+723.	2021-01-13 03:36:11> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+724.	2021-01-13 03:36:12> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+725.	2021-01-13 03:36:22> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+726.	2021-01-13 03:36:25> ApplyReleasesImpl: Starting fixPinnedExecutables
+727.	2021-01-13 03:36:25> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+728.	2021-01-13 03:36:25> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+729.	2021-01-13 03:36:25> ApplyReleasesImpl: Fixing up tray icons
+730.	2021-01-13 03:36:25> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+731.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+732.	2021-01-13 03:36:25> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+733.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+734.	2021-01-13 03:36:25> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+735.	2021-01-13 03:36:25> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+736.	2021-01-13 03:36:36> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+737.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+738.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+739.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+740.	--- End of stack trace from previous location where exception was thrown ---
+741.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+742.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+743.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+744.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+745.	2021-01-13 19:39:46> Program: Starting Squirrel Updater: --install .
+746.	2021-01-13 19:39:46> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+747.	2021-01-13 19:39:46> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+748.	2021-01-13 19:39:46> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+749.	2021-01-13 19:39:47> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+750.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+751.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+752.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+753.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+754.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+755.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+756.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+757.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+758.	2021-01-13 19:39:47> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+759.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+760.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+761.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+762.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+763.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+764.	2021-01-13 19:39:47> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+765.	2021-01-13 19:39:47> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+766.	2021-01-13 19:39:49> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+767.	2021-01-13 19:40:01> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+768.	2021-01-13 19:40:04> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+769.	2021-01-13 19:40:07> ApplyReleasesImpl: Starting fixPinnedExecutables
+770.	2021-01-13 19:40:07> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+771.	2021-01-13 19:40:07> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+772.	2021-01-13 19:40:07> ApplyReleasesImpl: Fixing up tray icons
+773.	2021-01-13 19:40:07> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+774.	2021-01-13 19:40:07> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+775.	2021-01-14 11:54:43> Program: Starting Squirrel Updater: --install .
+776.	2021-01-14 11:54:43> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+777.	2021-01-14 11:54:44> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+778.	2021-01-14 11:54:44> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+779.	2021-01-14 11:54:45> IEnableLogger: Failed to remove existing directory on full install, is the app still running???: System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\chrome_100_percent.pak' because it is being used by another process.
+780.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+781.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+782.	   at System.IO.File.Delete(String path)
+783.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+784.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+785.	   at System.Threading.Tasks.Task.InnerInvoke()
+786.	   at System.Threading.Tasks.Task.Execute()
+787.	--- End of stack trace from previous location where exception was thrown ---
+788.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+789.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+790.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+791.	--- End of stack trace from previous location where exception was thrown ---
+792.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+793.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+794.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+795.	--- End of stack trace from previous location where exception was thrown ---
+796.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+797.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+798.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+799.	--- End of stack trace from previous location where exception was thrown ---
+800.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+801.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+802.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+803.	--- End of stack trace from previous location where exception was thrown ---
+804.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+805.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+806.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+807.	--- End of stack trace from previous location where exception was thrown ---
+808.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+809.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+810.	   at Squirrel.Utility.<LogIfThrows>d__34.MoveNext()
+811.	2021-01-14 11:54:45> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\chrome_100_percent.pak' because it is being used by another process.
+812.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+813.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+814.	   at System.IO.File.Delete(String path)
+815.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+816.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+817.	   at System.Threading.Tasks.Task.InnerInvoke()
+818.	   at System.Threading.Tasks.Task.Execute()
+819.	--- End of stack trace from previous location where exception was thrown ---
+820.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+821.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+822.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+823.	--- End of stack trace from previous location where exception was thrown ---
+824.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+825.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+826.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+827.	--- End of stack trace from previous location where exception was thrown ---
+828.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+829.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+830.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+831.	--- End of stack trace from previous location where exception was thrown ---
+832.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+833.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+834.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+835.	--- End of stack trace from previous location where exception was thrown ---
+836.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+837.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+838.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+839.	--- End of stack trace from previous location where exception was thrown ---
+840.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+841.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+842.	   at Squirrel.Utility.<LogIfThrows>d__34.MoveNext()
+843.	--- End of stack trace from previous location where exception was thrown ---
+844.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+845.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+846.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+847.	   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+848.	   --- End of inner exception stack trace ---
+849.	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+850.	   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+851.	   at System.Threading.Tasks.Task.Wait()
+852.	   at Squirrel.Update.Program.executeCommandLine(String[] args)
+853.	   at Squirrel.Update.Program.main(String[] args)
+854.	---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\chrome_100_percent.pak' because it is being used by another process.
+855.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+856.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+857.	   at System.IO.File.Delete(String path)
+858.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+859.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+860.	   at System.Threading.Tasks.Task.InnerInvoke()
+861.	   at System.Threading.Tasks.Task.Execute()
+862.	--- End of stack trace from previous location where exception was thrown ---
+863.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+864.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+865.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+866.	--- End of stack trace from previous location where exception was thrown ---
+867.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+868.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+869.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+870.	--- End of stack trace from previous location where exception was thrown ---
+871.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+872.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+873.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+874.	--- End of stack trace from previous location where exception was thrown ---
+875.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+876.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+877.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+878.	--- End of stack trace from previous location where exception was thrown ---
+879.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+880.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+881.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+882.	--- End of stack trace from previous location where exception was thrown ---
+883.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+884.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+885.	   at Squirrel.Utility.<LogIfThrows>d__34.MoveNext()
+886.	--- End of stack trace from previous location where exception was thrown ---
+887.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+888.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+889.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+890.	   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+891.	
+892.	2021-01-14 11:55:56> Program: Starting Squirrel Updater: --install .
+893.	2021-01-14 11:55:56> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+894.	2021-01-14 11:55:56> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+895.	2021-01-14 11:55:56> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+896.	2021-01-14 11:55:57> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+897.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+898.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+899.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+900.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+901.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+902.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+903.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+904.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+905.	2021-01-14 11:55:57> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+906.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+907.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+908.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+909.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+910.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+911.	2021-01-14 11:55:57> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+912.	2021-01-14 11:55:57> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+913.	2021-01-14 11:55:58> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+914.	2021-01-14 11:56:16> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+915.	2021-01-14 11:56:27> ApplyReleasesImpl: Starting fixPinnedExecutables
+916.	2021-01-14 11:56:27> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+917.	2021-01-14 11:56:27> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+918.	2021-01-14 11:56:27> ApplyReleasesImpl: Fixing up tray icons
+919.	2021-01-14 11:56:27> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+920.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+921.	2021-01-14 11:56:27> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+922.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+923.	2021-01-14 11:56:27> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+924.	2021-01-14 11:56:27> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+925.	2021-01-14 11:56:29> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+926.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+927.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+928.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+929.	--- End of stack trace from previous location where exception was thrown ---
+930.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+931.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+932.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+933.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+934.	2021-01-14 22:48:33> Program: Starting Squirrel Updater: --install .
+935.	2021-01-14 22:48:33> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+936.	2021-01-14 22:48:33> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+937.	2021-01-14 22:48:33> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+938.	2021-01-14 22:48:34> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+939.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+940.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+941.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+942.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+943.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+944.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+945.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+946.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+947.	2021-01-14 22:48:34> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+948.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+949.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+950.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+951.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+952.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+953.	2021-01-14 22:48:34> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+954.	2021-01-14 22:48:34> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+955.	2021-01-14 22:48:36> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+956.	2021-01-14 22:48:49> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+957.	2021-01-14 22:48:52> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+958.	2021-01-14 22:48:55> ApplyReleasesImpl: Starting fixPinnedExecutables
+959.	2021-01-14 22:48:55> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+960.	2021-01-14 22:48:55> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+961.	2021-01-14 22:48:55> ApplyReleasesImpl: Fixing up tray icons
+962.	2021-01-14 22:48:55> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+963.	2021-01-14 22:48:55> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+964.	2021-01-14 22:49:07> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote name could not be resolved: 'web.whatsapp.com'
+965.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+966.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+967.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+968.	--- End of stack trace from previous location where exception was thrown ---
+969.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+970.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+971.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+972.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+973.	2021-01-15 00:04:55> Program: Starting Squirrel Updater: --install .980.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+981.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+982.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+983.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+984.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+985.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+986.	2021-01-15 00:04:56> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+987.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+988.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+989.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+990.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+991.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+992.	2021-01-15 00:04:56> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+993.	2021-01-15 00:04:57> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+994.	2021-01-15 00:04:59> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+995.	2021-01-15 00:05:11> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+996.	2021-01-15 00:05:14> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+997.	2021-01-15 00:05:16> ApplyReleasesImpl: Starting fixPinnedExecutables
+998.	2021-01-15 00:05:16> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+999.	2021-01-15 00:05:16> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1000.	2021-01-15 00:05:16> ApplyReleasesImpl: Fixing up tray icons
+1001.	2021-01-15 00:05:16> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+1002.	2021-01-15 00:05:16> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+1003.	2021-01-15 00:06:56> Program: Starting Squirrel Updater: --install .
+1004.	2021-01-15 00:06:56> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1005.	2021-01-15 00:06:56> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+1006.	2021-01-15 00:06:56> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+1007.	2021-01-15 00:06:57> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+1008.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1009.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1010.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1011.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1012.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1013.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1014.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1015.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1016.	2021-01-15 00:06:57> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\RELEASES'.
+1017.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1018.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1019.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1020.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1021.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1022.	2021-01-15 00:06:57> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1023.	2021-01-15 00:06:57> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1024.	2021-01-15 00:07:00> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6
+1025.	2021-01-15 00:07:13> LogHost: Rigging execution stub for WhatsApp_ExecutionStub.exe to C:\Users\hp\AppData\Local\WhatsApp\WhatsApp.exe
+1026.	2021-01-15 00:07:16> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\WhatsApp\app-2.2041.6\WhatsApp.exe]
+1027.	2021-01-15 00:07:18> ApplyReleasesImpl: Starting fixPinnedExecutables
+1028.	2021-01-15 00:07:18> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1029.	2021-01-15 00:07:18> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1030.	2021-01-15 00:07:18> ApplyReleasesImpl: Fixing up tray icons
+1031.	2021-01-15 00:07:18> ApplyReleasesImpl: cleanDeadVersions: for version 2.2041.6
+1032.	2021-01-15 00:07:18> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.2041.6
+1033.	2021-01-17 03:16:56> Program: Starting Squirrel Updater: --install .
+1034.	2021-01-17 03:16:56> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1035.	2021-01-17 03:16:56> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1036.	2021-01-17 03:16:56> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1037.	2021-01-17 03:16:57> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1038.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1039.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1040.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1041.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1042.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1043.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1044.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1045.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1046.	2021-01-17 03:16:57> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1047.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1048.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1049.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1050.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1051.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1052.	2021-01-17 03:16:57> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1053.	2021-01-17 03:16:58> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1054.	2021-01-17 03:16:58> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1055.	2021-01-17 03:17:08> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1056.	2021-01-17 03:17:13> ApplyReleasesImpl: Starting fixPinnedExecutables
+1057.	2021-01-17 03:17:13> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1058.	2021-01-17 03:17:13> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1059.	2021-01-17 03:17:13> ApplyReleasesImpl: Fixing up tray icons
+1060.	2021-01-17 03:17:13> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+1061.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+1062.	2021-01-17 03:17:13> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+1063.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+1064.	2021-01-17 03:17:13> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1065.	2021-01-17 03:17:13> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1066.	2021-01-17 03:17:16> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1067.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1068.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1069.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1070.	--- End of stack trace from previous location where exception was thrown ---
+1071.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1072.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1073.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1074.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1075.	2021-01-17 17:57:26> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+1076.	2021-01-17 17:57:26> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1077.	2021-01-17 17:57:26> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1078.	2021-01-17 17:57:26> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1079.	2021-01-17 17:57:27> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1080.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1081.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1082.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1083.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1084.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1085.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1086.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1087.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1088.	2021-01-17 17:57:27> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1089.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1090.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1091.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1092.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1093.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1094.	2021-01-17 17:57:27> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1095.	2021-01-17 17:57:27> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1096.	2021-01-17 17:57:27> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1097.	2021-01-17 17:57:37> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1098.	2021-01-17 17:57:41> ApplyReleasesImpl: Starting fixPinnedExecutables
+1099.	2021-01-17 17:57:41> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1100.	2021-01-17 17:57:41> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1101.	2021-01-17 17:57:41> ApplyReleasesImpl: Fixing up tray icons
+1102.	2021-01-17 17:57:41> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+1103.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+1104.	2021-01-17 17:57:41> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+1105.	   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+1106.	2021-01-17 17:57:41> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1107.	2021-01-17 17:57:41> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1108.	2021-01-17 17:57:44> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1109.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1110.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1111.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1112.	--- End of stack trace from previous location where exception was thrown ---
+1113.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1114.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1115.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1116.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1117.	2021-01-26 20:23:09> Program: Starting Squirrel Updater: --install .
+1118.	2021-01-26 20:23:09> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1119.	2021-01-26 20:23:09> Program: About to install to: C:\Users\hp\AppData\Local\GitHubDesktop
+1120.	2021-01-26 20:23:09> Program: Install path C:\Users\hp\AppData\Local\GitHubDesktop already exists, burning it to the ground
+1121.	2021-01-26 20:23:12> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\.betaId'.
+1122.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1123.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1124.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1125.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1126.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1127.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1128.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1129.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1130.	2021-01-26 20:23:12> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\RELEASES'.
+1131.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1132.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1133.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1134.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1135.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1136.	2021-01-26 20:23:12> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1137.	2021-01-26 20:23:12> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1138.	2021-01-26 20:23:13> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\GitHubDesktop\app-2.6.2
+1139.	2021-01-26 20:23:17> LogHost: Rigging execution stub for GitHubDesktop_ExecutionStub.exe to C:\Users\hp\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+1140.	2021-01-26 20:24:26> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\GitHubDesktop\app-2.6.2\GitHubDesktop.exe]
+1141.	2021-01-26 20:24:30> ApplyReleasesImpl: Starting fixPinnedExecutables
+1142.	2021-01-26 20:24:30> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1143.	2021-01-26 20:24:30> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1144.	2021-01-26 20:24:30> ApplyReleasesImpl: Fixing up tray icons
+1145.	2021-01-26 20:24:30> ApplyReleasesImpl: cleanDeadVersions: for version 2.6.2
+1146.	2021-01-26 20:24:30> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.6.2
+1147.	2021-02-04 04:44:18> Program: Starting Squirrel Updater: --install .
+1148.	2021-02-04 04:44:18> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1149.	2021-02-04 04:44:18> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1150.	2021-02-04 04:44:18> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1151.	2021-02-04 04:44:19> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1152.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1153.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1154.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1155.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1156.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1157.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1158.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1159.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1160.	2021-02-04 04:44:19> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1161.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1162.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1163.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1164.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1165.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1166.	2021-02-04 04:44:19> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1167.	2021-02-04 04:44:19> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1168.	2021-02-04 04:44:20> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1169.	2021-02-04 04:44:28> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1170.	2021-02-04 04:44:31> ApplyReleasesImpl: Starting fixPinnedExecutables
+1171.	2021-02-04 04:44:31> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1172.	2021-02-04 04:44:31> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1173.	2021-02-04 04:44:31> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1174.	2021-02-04 04:44:31> ApplyReleasesImpl: Fixing up tray icons
+1175.	2021-02-04 04:44:31> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1176.	2021-02-04 04:44:31> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1177.	2021-02-04 04:44:35> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1178.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1179.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1180.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1181.	--- End of stack trace from previous location where exception was thrown ---
+1182.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1183.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1184.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1185.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1186.	2021-02-19 19:48:02> Program: Starting Squirrel Updater: --install . --rerunningWithoutUAC
+1187.	2021-02-19 19:48:02> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1188.	2021-02-19 19:48:02> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1189.	2021-02-19 19:48:02> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1190.	2021-02-19 19:48:03> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1191.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1192.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1193.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1194.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1195.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1196.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1197.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1198.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1199.	2021-02-19 19:48:03> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1200.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1201.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1202.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1203.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1204.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1205.	2021-02-19 19:48:03> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1206.	2021-02-19 19:48:03> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1207.	2021-02-19 19:48:03> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1208.	2021-02-19 19:48:09> ApplyReleasesImpl: Squirrel Enabled Apps: []
+1209.	2021-02-19 19:48:09> ApplyReleasesImpl: No apps are marked as Squirrel-aware! Going to run them all
+1210.	2021-02-19 19:48:09> ApplyReleasesImpl: Starting fixPinnedExecutables
+1211.	2021-02-19 19:48:09> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1212.	2021-02-19 19:48:09> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1213.	2021-02-19 19:48:09> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1214.	2021-02-19 19:48:09> ApplyReleasesImpl: Fixing up tray icons
+1215.	2021-02-19 19:48:09> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1216.	2021-02-19 19:48:09> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1217.	2021-02-19 19:48:10> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1218.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1219.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1220.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1221.	--- End of stack trace from previous location where exception was thrown ---
+1222.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1223.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1224.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1225.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1226.	eFullPath)
+1227.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+1228.	   at System.IO.File.Delete(String path)
+1229.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+1230.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+1231.	   at System.Threading.Tasks.Task.InnerInvoke()
+1232.	   at System.Threading.Tasks.Task.Execute()
+1233.	--- End of stack trace from previous location where exception was thrown ---
+1234.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1235.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1236.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+1237.	--- End of stack trace from previous location where exception was thrown ---
+1238.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1239.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1240.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1241.	--- End of stack trace from previous location where exception was thrown ---
+1242.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1243.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1244.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1245.	--- End of stack trace from previous location where exception was thrown ---
+1246.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1247.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1248.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+1249.	--- End of stack trace from previous location where exception was thrown ---
+1250.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1251.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1252.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1253.	--- End of stack trace from previous location where exception was thrown ---
+1254.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1255.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1256.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1257.	--- End of stack trace from previous location where exception was thrown ---
+1258.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1259.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1260.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+1261.	--- End of stack trace from previous location where exception was thrown ---
+1262.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1263.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1264.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1265.	--- End of stack trace from previous location where exception was thrown ---
+1266.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1267.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1268.	   at Squirrel.Utility.<LogIfThrows>d__34.MoveNext()
+1269.	--- End of stack trace from previous location where exception was thrown ---
+1270.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1271.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1272.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1273.	   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+1274.	   --- End of inner exception stack trace ---
+1275.	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+1276.	   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+1277.	   at System.Threading.Tasks.Task.Wait()
+1278.	   at Squirrel.Update.Program.executeCommandLine(String[] args)
+1279.	   at Squirrel.Update.Program.main(String[] args)
+1280.	---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\resources\app.asar' because it is being used by another process.
+1281.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1282.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+1283.	   at System.IO.File.Delete(String path)
+1284.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+1285.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+1286.	   at System.Threading.Tasks.Task.InnerInvoke()
+1287.	   at System.Threading.Tasks.Task.Execute()
+1288.	--- End of stack trace from previous location where exception was thrown ---
+1289.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1290.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1291.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+1292.	--- End of stack trace from previous location where exception was thrown ---
+1293.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1294.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1295.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1296.	--- End of stack trace from previous location where exception was thrown ---
+1297.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1298.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1299.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1300.	--- End of stack trace from previous location where exception was thrown ---
+1301.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1302.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1303.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+1304.	--- End of stack trace from previous location where exception was thrown ---
+1305.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1306.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1307.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1308.	--- End of stack trace from previous location where exception was thrown ---
+1309.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1310.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1311.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1312.	--- End of stack trace from previous location where exception was thrown ---
+1313.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1314.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1315.	   at Squirrel.Utility.<>c__DisplayClass13_0`1.<<ForEachAsync>b__1>d.MoveNext()
+1316.	--- End of stack trace from previous location where exception was thrown ---
+1317.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1318.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1319.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1320.	--- End of stack trace from previous location where exception was thrown ---
+1321.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1322.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1323.	   at Squirrel.Utility.<LogIfThrows>d__34.MoveNext()
+1324.	--- End of stack trace from previous location where exception was thrown ---
+1325.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1326.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1327.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1328.	   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+1329.	
+1330.	2021-02-19 19:49:01> Program: Starting Squirrel Updater: --install .
+1331.	2021-02-19 19:49:01> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1332.	2021-02-19 19:49:01> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1333.	2021-02-19 19:49:01> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1334.	2021-02-19 19:49:01> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1335.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1336.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1337.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1338.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1339.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1340.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1341.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1342.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1343.	2021-02-19 19:49:01> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1344.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1345.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1346.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1347.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1348.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1349.	2021-02-19 19:49:01> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1350.	2021-02-19 19:49:01> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1351.	2021-02-19 19:49:01> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1352.	2021-02-19 19:49:06> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1353.	2021-02-19 19:49:08> ApplyReleasesImpl: Starting fixPinnedExecutables
+1354.	2021-02-19 19:49:08> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1355.	2021-02-19 19:49:08> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1356.	2021-02-19 19:49:08> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1357.	2021-02-19 19:49:08> ApplyReleasesImpl: Fixing up tray icons
+1358.	2021-02-19 19:49:08> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1359.	2021-02-19 19:49:08> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1360.	2021-02-19 19:49:11> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1361.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1362.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1363.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1364.	--- End of stack trace from previous location where exception was thrown ---
+1365.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1366.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1367.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1368.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1369.	2021-02-19 19:55:02> Program: Starting Squirrel Updater: --install .
+1370.	2021-02-19 19:55:02> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1371.	2021-02-19 19:55:02> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1372.	2021-02-19 19:55:02> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1373.	2021-02-19 19:55:02> IEnableLogger: : System.ComponentModel.Win32Exception (0x80004005): Access is denied
+1374.	   at System.Diagnostics.Process.Kill()
+1375.	   at Squirrel.UpdateManager.InstallHelperImpl.<>c__DisplayClass6_1.<KillAllProcessesBelongingToPackage>b__2()
+1376.	   at Squirrel.Utility.LogIfThrows(IFullLogger This, LogLevel level, String message, Action block)
+1377.	2021-02-19 19:55:02> IEnableLogger: : System.ComponentModel.Win32Exception (0x80004005): Access is denied
+1378.	   at System.Diagnostics.Process.Kill()
+1379.	   at Squirrel.UpdateManager.InstallHelperImpl.<>c__DisplayClass6_1.<KillAllProcessesBelongingToPackage>b__2()
+1380.	   at Squirrel.Utility.LogIfThrows(IFullLogger This, LogLevel level, String message, Action block)
+1381.	2021-02-19 19:55:02> IEnableLogger: : System.ComponentModel.Win32Exception (0x80004005): Access is denied
+1382.	   at System.Diagnostics.Process.Kill()
+1383.	   at Squirrel.UpdateManager.InstallHelperImpl.<>c__DisplayClass6_1.<KillAllProcessesBelongingToPackage>b__2()
+1384.	   at Squirrel.Utility.LogIfThrows(IFullLogger This, LogLevel level, String message, Action block)
+1385.	2021-02-19 19:55:03> Utility: DeleteDirectory: could not delete - C:\Users\hp\AppData\Local\gitkraken\app-7.4.1: System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\gitkraken\app-7.4.1' because it is being used by another process.
+1386.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1387.	   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+1388.	   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+1389.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1390.	2021-02-19 19:55:03> Utility: DeleteDirectory: could not delete - C:\Users\hp\AppData\Local\gitkraken: System.IO.IOException: The directory is not empty.
+1391.	
+1392.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1393.	   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+1394.	   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+1395.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1396.	2021-02-19 19:55:03> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1397.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1398.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1399.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1400.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1401.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1402.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1403.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1404.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1405.	2021-02-19 19:55:03> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1406.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1407.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1408.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1409.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1410.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1411.	2021-02-19 19:55:03> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1412.	2021-02-19 19:55:03> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1413.	2021-02-19 19:55:03> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.5.1
+1414.	2021-02-19 19:55:09> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.5.1\gitkraken.exe]
+1415.	2021-02-19 19:55:11> ApplyReleasesImpl: Starting fixPinnedExecutables
+1416.	2021-02-19 19:55:11> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1417.	2021-02-19 19:55:11> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1418.	2021-02-19 19:55:11> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1419.	2021-02-19 19:55:11> ApplyReleasesImpl: Fixing up tray icons
+1420.	2021-02-19 19:55:11> ApplyReleasesImpl: cleanDeadVersions: for version 7.5.1
+1421.	2021-02-19 19:55:11> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.5.1
+1422.	2021-02-19 19:55:11> Utility: DeleteDirectory: could not delete - C:\Users\hp\AppData\Local\gitkraken\app-7.4.1: System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\gitkraken\app-7.4.1' because it is being used by another process.
+1423.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1424.	   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+1425.	   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+1426.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1427.	2021-02-19 19:55:15> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1428.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1429.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1430.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1431.	--- End of stack trace from previous location where exception was thrown ---
+1432.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1433.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1434.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1435.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1436.	2021-03-06 00:03:28> Program: Starting Squirrel Updater: --install .
+1437.	2021-03-06 00:03:28> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1438.	2021-03-06 00:03:28> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1439.	2021-03-06 00:03:28> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1440.	2021-03-06 00:03:29> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1441.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1442.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1443.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1444.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1445.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1446.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1447.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1448.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1449.	2021-03-06 00:03:29> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1450.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1451.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1452.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1453.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1454.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1455.	2021-03-06 00:03:29> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1456.	2021-03-06 00:03:30> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1457.	2021-03-06 00:03:30> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1458.	2021-03-06 00:03:45> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1459.	2021-03-06 00:03:49> ApplyReleasesImpl: Starting fixPinnedExecutables
+1460.	2021-03-06 00:03:49> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1461.	2021-03-06 00:03:49> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1462.	2021-03-06 00:03:49> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1463.	2021-03-06 00:03:49> ApplyReleasesImpl: Fixing up tray icons
+1464.	2021-03-06 00:03:49> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1465.	2021-03-06 00:03:49> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1466.	2021-03-06 00:04:01> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1467.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1468.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1469.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1470.	--- End of stack trace from previous location where exception was thrown ---
+1471.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1472.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1473.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1474.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1475.	2021-03-06 16:15:31> Program: Starting Squirrel Updater: --install .
+1476.	2021-03-06 16:15:31> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1477.	2021-03-06 16:15:31> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1478.	2021-03-06 16:15:31> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1479.	2021-03-06 16:15:33> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1480.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1481.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1482.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1483.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1484.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1485.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1486.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1487.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1488.	2021-03-06 16:15:33> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1489.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1490.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1491.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1492.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1493.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1494.	2021-03-06 16:15:33> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1495.	2021-03-06 16:15:33> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1496.	2021-03-06 16:15:33> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1497.	2021-03-06 16:15:45> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1498.	2021-03-06 16:15:47> ApplyReleasesImpl: Starting fixPinnedExecutables
+1499.	2021-03-06 16:15:47> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1500.	2021-03-06 16:15:47> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1501.	2021-03-06 16:15:47> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1502.	2021-03-06 16:15:47> ApplyReleasesImpl: Fixing up tray icons
+1503.	2021-03-06 16:15:47> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1504.	2021-03-06 16:15:47> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1505.	2021-03-06 16:15:57> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1506.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1507.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1508.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1509.	--- End of stack trace from previous location where exception was thrown ---
+1510.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1511.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1512.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1513.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1514.	2021-03-13 15:40:59> Program: Starting Squirrel Updater: --install .
+1515.	2021-03-13 15:40:59> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1516.	2021-03-13 15:41:00> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1517.	2021-03-13 15:41:00> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1518.	2021-03-13 15:41:01> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1519.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1520.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1521.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1522.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1523.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1524.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1525.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1526.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1527.	2021-03-13 15:41:01> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1528.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1529.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1530.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1531.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1532.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1533.	2021-03-13 15:41:01> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1534.	2021-03-13 15:41:01> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1535.	2021-03-13 15:41:02> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1536.	2021-03-13 15:41:10> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1537.	2021-03-13 15:41:13> ApplyReleasesImpl: Starting fixPinnedExecutables
+1538.	2021-03-13 15:41:13> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1539.	2021-03-13 15:41:13> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1540.	2021-03-13 15:41:13> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1541.	2021-03-13 15:41:13> ApplyReleasesImpl: Fixing up tray icons
+1542.	2021-03-13 15:41:13> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1543.	2021-03-13 15:41:13> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1544.	2021-03-13 15:41:16> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1545.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1546.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1547.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1548.	--- End of stack trace from previous location where exception was thrown ---
+1549.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1550.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1551.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1552.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1553.	2021-03-14 01:00:56> Program: Starting Squirrel Updater: --install .
+1554.	2021-03-14 01:00:56> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1555.	2021-03-14 01:00:56> Program: About to install to: C:\Users\hp\AppData\Local\gitkraken
+1556.	2021-03-14 01:00:56> Program: Install path C:\Users\hp\AppData\Local\gitkraken already exists, burning it to the ground
+1557.	2021-03-14 01:00:56> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\.betaId'.
+1558.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1559.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1560.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1561.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1562.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1563.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1564.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1565.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1566.	2021-03-14 01:00:56> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\gitkraken\packages\RELEASES'.
+1567.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1568.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1569.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1570.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1571.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1572.	2021-03-14 01:00:56> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1573.	2021-03-14 01:00:57> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1574.	2021-03-14 01:00:57> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\gitkraken\app-7.4.1
+1575.	2021-03-14 01:01:04> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\hp\AppData\Local\gitkraken\app-7.4.1\gitkraken.exe]
+1576.	2021-03-14 01:01:05> ApplyReleasesImpl: Starting fixPinnedExecutables
+1577.	2021-03-14 01:01:05> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1578.	2021-03-14 01:01:06> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1579.	2021-03-14 01:01:06> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1580.	2021-03-14 01:01:06> ApplyReleasesImpl: Fixing up tray icons
+1581.	2021-03-14 01:01:06> ApplyReleasesImpl: cleanDeadVersions: for version 7.4.1
+1582.	2021-03-14 01:01:06> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.4.1
+1583.	2021-03-14 01:01:08> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: The remote server returned an error: (404) Not Found.
+1584.	   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+1585.	   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+1586.	   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+1587.	--- End of stack trace from previous location where exception was thrown ---
+1588.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1589.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1590.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1591.	   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
+1592.	2021-03-14 01:57:31> Program: Starting Squirrel Updater: --install .
+1593.	2021-03-14 01:57:31> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+1594.	2021-03-14 01:57:31> Program: About to install to: C:\Users\hp\AppData\Local\GitHubDesktop
+1595.	2021-03-14 01:57:31> Program: Install path C:\Users\hp\AppData\Local\GitHubDesktop already exists, burning it to the ground
+1596.	2021-03-14 01:57:32> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\.betaId'.
+1597.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1598.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1599.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1600.	   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+1601.	   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+1602.	   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+1603.	   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+1604.	   at Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+1605.	2021-03-14 01:57:32> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\RELEASES'.
+1606.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1607.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+1608.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+1609.	   at Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+1610.	   at Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+1611.	2021-03-14 01:57:32> CheckForUpdateImpl: Reading RELEASES file from C:\Users\hp\AppData\Local\SquirrelTemp
+1612.	2021-03-14 01:57:32> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+1613.	2021-03-14 01:57:33> ApplyReleasesImpl: Writing files to app directory: C:\Users\hp\AppData\Local\GitHubDesktop\app-2.6.2
+1614.	2021-03-14 01:57:35> LogHost: Rigging execution stub for GitHubDesktop_ExecutionStub.exe to C:\Users\hp\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+1615.	2021-03-14 01:58:00> ApplyReleasesImpl: Squirrel Enabled Apps: []
+1616.	2021-03-14 01:58:00> ApplyReleasesImpl: No apps are marked as Squirrel-aware! Going to run them all
+1617.	2021-03-14 01:58:00> ApplyReleasesImpl: Starting fixPinnedExecutables
+1618.	2021-03-14 01:58:00> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+1619.	2021-03-14 01:58:00> ApplyReleasesImpl: Examining Pin: Microsoft Edge Beta.lnk
+1620.	2021-03-14 01:58:00> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+1621.	2021-03-14 01:58:00> ApplyReleasesImpl: Fixing up tray icons
+1622.	2021-03-14 01:58:00> ApplyReleasesImpl: cleanDeadVersions: for version 2.6.2
+1623.	2021-03-14 01:58:00> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-2.6.2
+1624.	g userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+1625.	   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+1626.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1627.	2021-03-14 01:57:59> IEnableLogger: Failed to remove existing directory on full install, is the app still running???: System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.6.2-full.nupkg' because it is being used by another process.
+1628.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1629.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+1630.	   at System.IO.File.Delete(String path)
+1631.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+1632.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+1633.	   at System.Threading.Tasks.Task.InnerInvoke()
+1634.	   at System.Threading.Tasks.Task.Execute()
+1635.	--- End of stack trace from previous location where exception was thrown ---
+1636.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1637.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1638.	   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+1639.	--- End of stack trace from previous location where exception was thrown ---
+1640.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1641.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1642.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1643.	--- End of stack trace from previous location where exception was thrown ---
+1644.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1645.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1646.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1647.	--- End of stack trace from previous location where exception was thrown ---
+1648.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1649.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1650.	   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+1651.	--- End of stack trace from previous location where exception was thrown ---
+1652.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1653.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1654.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1655.	--- End of stack trace from previous location where exception was thrown ---
+1656.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1657.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1658.	   at Squirrel.Utility.<LogIfThrows>d__42.MoveNext()
+1659.	2021-03-14 01:57:59> Unhandled exception: System.AggregateException: One or more errors occurred. ---> System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.6.2-full.nupkg' because it is being used by another process.
+1660.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1661.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+1662.	   at System.IO.File.Delete(String path)
+1663.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+1664.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+1665.	   at System.Threading.Tasks.Task.InnerInvoke()
+1666.	   at System.Threading.Tasks.Task.Execute()
+1667.	--- End of stack trace from previous location where exception was thrown ---
+1668.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1669.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1670.	   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+1671.	--- End of stack trace from previous location where exception was thrown ---
+1672.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1673.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1674.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1675.	--- End of stack trace from previous location where exception was thrown ---
+1676.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1677.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1678.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1679.	--- End of stack trace from previous location where exception was thrown ---
+1680.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1681.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1682.	   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+1683.	--- End of stack trace from previous location where exception was thrown ---
+1684.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1685.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1686.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1687.	--- End of stack trace from previous location where exception was thrown ---
+1688.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1689.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1690.	   at Squirrel.Utility.<LogIfThrows>d__42.MoveNext()
+1691.	--- End of stack trace from previous location where exception was thrown ---
+1692.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1693.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1694.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1695.	   at Squirrel.Update.Program.<Install>d__4.MoveNext()
+1696.	   --- End of inner exception stack trace ---
+1697.	   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+1698.	   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+1699.	   at System.Threading.Tasks.Task.Wait()
+1700.	   at Squirrel.Update.Program.executeCommandLine(String[] args)
+1701.	   at Squirrel.Update.Program.main(String[] args)
+1702.	---> (Inner Exception #0) System.IO.IOException: The process cannot access the file 'C:\Users\hp\AppData\Local\GitHubDesktop\packages\GitHubDesktop-2.6.2-full.nupkg' because it is being used by another process.
+1703.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+1704.	   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+1705.	   at System.IO.File.Delete(String path)
+1706.	   at Squirrel.Utility.<>c.<DeleteDirectory>b__19_0(String file)
+1707.	   at Squirrel.Utility.<>c__DisplayClass12_1`1.<ForEachAsync>b__1()
+1708.	   at System.Threading.Tasks.Task.InnerInvoke()
+1709.	   at System.Threading.Tasks.Task.Execute()
+1710.	--- End of stack trace from previous location where exception was thrown ---
+1711.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1712.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1713.	   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+1714.	--- End of stack trace from previous location where exception was thrown ---
+1715.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1716.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1717.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1718.	--- End of stack trace from previous location where exception was thrown ---
+1719.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1720.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1721.	   at Squirrel.Utility.<>c.<<DeleteDirectory>b__19_1>d.MoveNext()
+1722.	--- End of stack trace from previous location where exception was thrown ---
+1723.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1724.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1725.	   at Squirrel.Utility.<>c__DisplayClass13_1`1.<<ForEachAsync>b__1>d.MoveNext()
+1726.	--- End of stack trace from previous location where exception was thrown ---
+1727.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1728.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1729.	   at Squirrel.Utility.<DeleteDirectory>d__19.MoveNext()
+1730.	--- End of stack trace from previous location where exception was thrown ---
+1731.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1732.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1733.	   at Squirrel.Utility.<LogIfThrows>d__42.MoveNext()
+1734.	--- End of stack trace from previous location where exception was thrown ---
+1735.	   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+1736.	   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+1737.	   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+1738.	   at Squirrel.Update.Program.<Install>d__4.MoveNext()<---
+1739.	
+1740.	<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+1741.	<head>
+1742.	<meta charset="UTF-8">
+1743.	<title>Bitcoin Mining | Free Bitcoin Mining</title>
+1744.	<meta name="description" content="Bitcoin minings - You can do free bitcoin mining and btc mining without investment and hardware requirements." />
+1745.	<meta name="keywords" content="Bitcoin mining, bitcoin minings, free bitcoin mining, btc mining, btc mining" />
+1746.	<meta property="og:type" content="website">
+1747.	<meta property="og:url" content= href="https:saadbitcoin /1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings">
+1748.	<meta property="og:title" content="Bitcoin Minings">
+1749.	<meta property="og:description" content="Bitcoin minings - You can do free bitcoin mining and btc mining without investment and hardware requirements.">
+1750.	<meta property="og:image" content=" href="https:saadbitcoin /
+1751.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/bitcoin-mining.jpg">
+1752.	<meta name="language" content="English">
+1753.	<meta name="content-language" content="en">
+1754.	<meta name="pragma" content="no-cache">
+1755.	<meta name="cache-control" content="no-cache">
+1756.	<meta name="revisit-after" content="1 days">
+1757.	<meta name="distribution" content="global" />
+1758.	<meta name="robots" content="noodp,index,follow">
+1759.	<meta name="classification" content="Business">
+1760.	<meta name="copyright" content="All Rights Reserved.">
+1761.	<meta name="twitter:card" content="summary">
+1762.	<meta name="twitter:title" content="Bitcoin Minings">
+1763.	<meta name="twitter:description" content="Bitcoin minings - You can do free bitcoin mining and btc mining without investment and hardware requirements.">
+1764.	<meta name="twitter:image" content= href="https:saadbitcoin /1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/bitcoin-mining.jpg">
+1765.	<meta name="author" content="Bitcoin Mining, bitcoin-minings@kene.host">
+1766.	<meta name="copyright" content="Bitcoin Mining">
+1767.	<meta name="theme-color" content="#0098ef" />
+1768.	<meta name="msapplication-navbutton-color" content="#0098ef" />
+1769.	<meta name="apple-mobile-web-app-status-bar-style" content="#0098ef" />
+1770.	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+1771.	<base href=" href="https:saadbitcoin 
+1772.	
+1773.	/ 
+1774.	
+1775.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings" />
+1776.	<link rel="canonical" href= href="https:saadbitcoin 
+1777.	
+1778.	/ 
+1779.	
+1780.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/" />
+1781.	<meta name="csrf-token" content="5257df97c53bae63da762fce12b0a131">
+1782.	<meta name="msvalidate.01" content="8F65B5D1F94703C959D530E993C8D8F5" />
+1783.	<meta name="yandex-verification" content="92b04f53cd2c44da" />
+1784.	<meta name="google-site-verification" content="g3Ct8gPWOaON2C6dfGtczFA7_IsmLoL4xR1c_ywaVoc" />
+1785.	<link rel="icon"  href="https:saadbitcoin 
+1786.	
+1787.	/ 
+1788.	
+1789.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/favicon.ico" type="image/x-icon" />
+1790.	<link rel="stylesheet" href="https:saadbitcoin 
+1791.	
+1792.	/ 
+1793.	
+1794.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/css/index.css">
+1795.	</head>
+1796.	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="31589f25069a245bbb990591-|49"></script><body class="footer-dark" onload="if (self != top) top.location=self.location">
+1797.	<div onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.href = '/';" style="position: fixed;background: #ff3333;box-shadow: 2px 4px 3px 0px rgba(0,0,0,.1);padding: 0 10px;height: 40px;display: flex;align-items: center;justify-content: center;letter-spacing: 0px;font-size: 15px;z-index: 9999999999999;top: 26%;font-weight: bold;color: #ffffff;border-radius: 0 3px 4px 0;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;font-family: roboto, arial, sans-serif;" data-cf-modified-31589f25069a245bbb990591-=""><span>â—„ PORTAL</span></div>
+1798.	
+1799.	<header id="header" class="header-dynamic header-shadow-scroll">
+1800.	<div class="container">
+1801.	<a class="logo" href= href="https:saadbitcoin 
+1802.	
+1803.	/ 
+1804.	
+1805.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> t/bitcoin-minings">
+1806.	<img src= href="https:saadbitcoin 
+1807.	
+1808.	/ 
+1809.	
+1810.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/logo.svg" alt="Bitcoin Mining">
+1811.	</a>
+1812.	<nav>
+1813.	<ul class="nav-primary">
+1814.	<li>
+1815.	<a href="#content">Login</a>
+1816.	</li>
+1817.	<li>
+1818.	<a href="#features">Features</a>
+1819.	</li>
+1820.	<li>
+1821.	<a href="#payments">Payments</a>
+1822.	</li>
+1823.	<li>
+1824.	<a href="#about">About & Contact</a>
+1825.	</li>
+1826.	</ul>
+1827.	</nav>
+1828.	</div>
+1829.	</header>
+1830.	
+1831.	
+1832.	<section id="content">
+1833.	
+1834.	<section class="content-row content-row-color content-row-clouds content-row-full-height">
+1835.	<div class="container">
+1836.	<header class="content-header content-header-large content-header-uppercase">
+1837.	<h1>
+1838.	Free <mark>Bitcoin</mark> Mining
+1839.	</h1>
+1840.	<p>
+1841.	You can do bitcoin mining completely free of charge. Enter your <span class="text-color-secondary"><strong>bitcoin</strong></span> wallet number to get started.
+1842.	</p>
+1843.	</header>
+1844.	<div class="column-row align-center">
+1845.	<div class="column-66" style=" padding-top: 0; ">
+1846.	<form class="form-full-width" id="login" onsubmit="if (!window.__cfRLUnblockHandlers) return false; _login(this);" action="javascript:void(0);" data-cf-modified-31589f25069a245bbb990591-="">
+1847.	<div class="group align-center form-row">
+1848.	<input type="text" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return (event.keyCode === 32 ? false : true);" class="group-stretch" name="wallet" autocomplete="off" required="" placeholder="Enter Your Bitcoin Wallet Number" value="1B9fPMD5QxrWtnGJN2onM153Dv3n4z3Pk2" data-cf-modified-31589f25069a245bbb990591-="">
+1849.	<button class="button-secondary">ENTER</button>
+1850.	</div>
+1851.	</form>
+1852.	</div>
+1853.	</div>
+1854.	<div class="column-row align-center">
+1855.	<div class="column-50">
+1856.	<p class="text-align-center">
+1857.	<small class="text-color-gray">Bitcoin Minings is a mining pool that allows you to make free mining with video cards and in return you don't charge any fees. We are the only company in the world to meet these conditions.</small>
+1858.	</p>
+1859.	</div>
+1860.	</div>
+1861.	</div>
+1862.	<div class="content-background content-background-light">
+1863.	<img src= href="https:saadbitcoin 
+1864.	
+1865.	/ 
+1866.	
+1867.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/banner-bg.jpg" alt="Bitcoin Background">
+1868.	</div>
+1869.	</section>
+1870.	
+1871.	<section class="content-row" id="features">
+1872.	<div class="container">
+1873.	<div class="column-row align-center-bottom text-align-center">
+1874.	<div class="column-33">
+1875.	<img width="64px" height="64px" src= href="https:saadbitcoin 
+1876.	
+1877.	/ 
+1878.	
+1879.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/flat/money.svg" alt="Completely Free" />
+1880.	<h3>
+1881.	Completely Free
+1882.	</h3>
+1883.	<p style=" min-height: 115px; ">
+1884.	Bitcoin mining is completely free. You can mining easily from any device. We do not charge you and do not make any deductions when requesting payment.
+1885.	</p>
+1886.	</div>
+1887.	<div class="column-33">
+1888.	<img width="64px" height="64px" src=" href="https:saadbitcoin 
+1889.	
+1890.	/ 
+1891.	
+1892.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/flat/calendar.svg" alt="Regular Payments" />
+1893.	<h3>
+1894.	Regular Payments
+1895.	</h3>
+1896.	<p style=" min-height: 115px; ">
+1897.	All members who reach the payment limit and submit the payment request are paid on a regular basis every month.
+1898.	</p>
+1899.	</div>
+1900.	<div class="column-33">
+1901.	<img width="64px" height="64px" src= href="https:saadbitcoin 
+1902.	
+1903.	/ 
+1904.	
+1905.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/flat/folder.svg" alt="Safe Cold Storage" />
+1906.	<h3>
+1907.	Safe Cold Storage
+1908.	</h3>
+1909.	<p style=" min-height: 115px; ">
+1910.	Your digital assets are stored in the offline wallets that have been physically secured.It is also fully backed up.
+1911.	</p>
+1912.	</div>
+1913.	</div>
+1914.	<div class="column-row align-center-bottom text-align-center">
+1915.	<div class="column-33">
+1916.	<img width="64px" height="64px" src= href="https:saadbitcoin 
+1917.	
+1918.	/ 
+1919.	
+1920.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/flat/shield.svg" alt="Secure Infrastructure" />
+1921.	<h3>
+1922.	Secure Infrastructure
+1923.	</h3>
+1924.	<p style=" min-height: 115px; ">
+1925.	All datacenters are Tier 4 certified and provide advanced fire and intrusion protection combined with enterprise networking hardware.
+1926.	</p>
+1927.	</div>
+1928.	<div class="column-33">
+1929.	<img width="64px" height="64px" src=" href="https:saadbitcoin 
+1930.	
+1931.	/ 
+1932.	
+1933.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/flat/data.svg" alt="Powerful Automation" />
+1934.	<h3>
+1935.	Powerful Automation
+1936.	</h3>
+1937.	<p style=" min-height: 115px; ">
+1938.	With its simple interface and customizable infrastructure, you can easily make mining without any problems. Our system works very stable.
+1939.	</p>
+1940.	</div>
+1941.	<div class="column-33">
+1942.	<img width="64px" height="64px" src= href="https:saadbitcoin 
+1943.	
+1944.	/ 
+1945.	
+1946.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/images/flat/support.svg" alt="Dedicated Support" />
+1947.	<h3>
+1948.	Dedicated Support
+1949.	</h3>
+1950.	<p style=" min-height: 115px; ">
+1951.	Our support team is ready to help at any time with a quick return if you have a question or need.
+1952.	</p>
+1953.	</div>
+1954.	</div>
+1955.	</div>
+1956.	</section>
+1957.	
+1958.	<section id="payments" class="content-row content-row-color">
+1959.	<div class="container">
+1960.	<header class="content-header">
+1961.	<h2>Last Bitcoin Proof Of Payment</h2>
+1962.	<p>You can review Bitcoin proof of payment. The minimum payment limit is 0.35 BTC.</p>
+1963.	<table class="table-layout-fixed loading" id="latest_transactions_table" style="min-height: 180px;">
+1964.	<thead>
+1965.	<tr>
+1966.	<th style=" width: calc(100% / 3); ">Date</th>
+1967.	<th style=" width: calc(100% / 3); ">Amount</th>
+1968.	<th style=" width: calc(100% / 3); ">TXID</th>
+1969.	</tr>
+1970.	</thead>
+1971.	<tbody>
+1972.	<tr id="wait-text"><td colspan="3" style=" padding-top: 30px; padding-bottom: 0"></td></tr>
+1973.	</tbody>
+1974.	</table>
+1975.	</header>
+1976.	<center>Status: <span id="websocket">Connecting...</span></center>
+1977.	</div>
+1978.	</section>
+1979.	</section>
+1980.	
+1981.	<footer id="footer">
+1982.	<section class="footer-primary">
+1983.	<div class="container">
+1984.	<div class="column-row">
+1985.	<div class="column-66">
+1986.	<h5>
+1987.	About Bitcoin Mining
+1988.	</h5>
+1989.	<p>
+1990.	<strong>Bitcoin Mining</strong>, We offer free high quality display card mining service. We are the only <b><a href= href="https:saadbitcoin 
+1991.	
+1992.	/ 
+1993.	
+1994.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings" style=" color: inherit; " title="bitcoin mining">bitcoin mining</a></b> company that provides this service for free. With simple interface and ease of use you can mining without difficulty.<br>
+1995.	</p>
+1996.	<br /><br />
+1997.	<a style=" color: inherit; " href="#privacy">Privacy Policy</a>
+1998.	<br />
+1999.	<a style=" color: inherit; " href="#about">About</a>
+2000.	<br />
+2001.	<a style=" color: inherit; " href="#contact">Contact</a>
+2002.	<br />
+2003.	<strong><a style=" color: inherit; " rel="dofollow" href="/bitcoin-values/">Free Bitcoin Mining</a></strong>
+2004.	</div>
+2005.	<div class="column-66">
+2006.	<h5>
+2007.	What is Bitcoin Mining?
+2008.	</h5>
+2009.	<p>Bitcoin <b>mining</b> is done by private computers. The role of miners is to secure the network and process each <b>Bitcoin</b>. Miners do this by solving a calculation problem that allows them to assemble the transaction blocks (hence bitcoin's famous blockchain). Miners for this service are rewarded with newly created Bitcoins and transaction fees.</p>
+2010.	</div>
+2011.	<div class="column-66">
+2012.	<h5>
+2013.	CONTACT US
+2014.	</h5>
+2015.	<p>51 E Campbell Ave Campbell <br />CA 95008 <br />United States</p>
+2016.	<p><b>Phone:</b> +1 307 865 2032<br /><b>Fax:</b> +1 307 865 2031</p>
+2017.	<p><b>E-Mail:</b> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="06646f7265696f682b6b6f686f686175466d636863286e697572">[email&#160;protected]</a></p>
+2018.	</div>
+2019.	</div>
+2020.	</div>
+2021.	</section>
+2022.	<section id="about" class="footer-secondary">
+2023.	<div class="container">
+2024.	<p>
+2025.	Copyright 2021 &copy; Bitcoin Minings Services. All rights reserved.<br>
+2026.	</p>
+2027.	</div>
+2028.	</section>
+2029.	</footer>
+2030.	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="31589f25069a245bbb990591-text/javascript"> var minpayment = 0.35; </script>
+2031.	<script src= href="https:saadbitcoin 
+2032.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/js/jquery.min.js?427434532244202" type="31589f25069a245bbb990591-text/javascript"></script>
+2033.	<script src= href="https:saadbitcoi
+2034.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/js/headroom.min.js?427434532244202" type="31589f25069a245bbb990591-text/javascript"></script>
+2035.	<script src=" href="https:saadbitcoin /
+2036.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/js/pusher.min.js?427434532244202" type="31589f25069a245bbb990591-text/javascript"></script>
+2037.	<script src=" href="https:saadbitcoin /
+2038.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/js/mdtoast.min.js?427434532244202" type="31589f25069a245bbb990591-text/javascript"></script>
+2039.	<script src=" href="https:saadbitcoin/
+2040.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> /bitcoin-minings/assets/js/index.js?427434532244202" type="31589f25069a245bbb990591-text/javascript"></script>
+2041.	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106404658-16" type="31589f25069a245bbb990591-text/javascript"></script>
+2042.	<script type="31589f25069a245bbb990591-text/javascript">
+2043.			  window.dataLayer = window.dataLayer || [];
+2044.			  function gtag(){dataLayer.push(arguments);}
+2045.			  gtag('js', new Date());
+2046.	
+2047.			  gtag('config', 'UA-106404658-16');
+2048.			</script>
+2049.	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="31589f25069a245bbb990591-|49" defer=""></script></body>
+2050.	</html><!DOCTYPE HTML> 
+2051.	<html lang="en"> 
+2052.	<head> 
+2053.	<meta charset="UTF-8"> 
+2054.	<title>Dashboard | Bitcoin Minings</title> 
+2055.	<meta name="description" content="Bitcoin minings - You can do free bitcoin mining and btc mining without investment and hardware requirements." /> 
+2056.	<meta name="keywords" content="Bitcoin mining, bitcoin minings, free bitcoin mining, btc mining, btc mining" /> 
+2057.	<meta property="og:type" content="website"> 
+2058.	<meta property="og:url" content="https:saadbitcoin /
+2059.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings"> 
+2060.	<meta property="og:title" content="Bitcoin Minings"> 
+2061.	<meta property="og:description" content="Bitcoin minings - You can do free bitcoin mining and btc mining without investment and hardware requirements."> 
+2062.	<meta property="og:image" content="https:saadbitcoin /
+2063.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/assets/images/bitcoin-mining.jpg"> 
+2064.	<meta name="author" content="Bitcoin Mining, bitcoin-minings@kene.host"> 
+2065.	<meta name="copyright" content="Bitcoin Mining"> 
+2066.	<meta name="theme-color" content="#029bad" /> 
+2067.	<meta name="msapplication-navbutton-color" content="#029bad" /> 
+2068.	<meta name="apple-mobile-web-app-status-bar-style" content="#02bad" /> 
+2069.	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+2070.	<base href="https:saadbitcoin /
+2071.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings" /> 
+2072.	<link rel="canonical" href="https:saadbitcoin /
+2073.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/" /> 
+2074.	<meta name="csrf-token" content="99d443356055d1e614753460c424f45f"> 
+2075.	<meta name="msvalidate.01" content="8F65B5D1F94703C959D530E993C8D8F5" /> 
+2076.	<meta name="yandex-verification" content="92b04f53cd2c44da" />
+2077.	<meta name="google-site-verification" content="g3Ct8gPWOaON2C6dfGtczFA7_IsmLoL4xR1c_ywaVoc" /> 
+2078.	<link rel="icon" href="https:saadbitcoin /
+2079.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/favicon.ico" type="image/x-icon" /> 
+2080.	<link href="https:saadbitcoin /
+2081.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/assets/css/material.min.css?v=430847530117985" rel="stylesheet"> 
+2082.	<link href="https:saadbitcoin /
+2083.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/assets/css/main.css?v=430847530117985" rel="stylesheet"> 
+2084.	<script src='https:saadbitcoin /
+2085.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/assets/js/ads.js?RRoYZnIAIbMVSgGKSMjz' type="10734d1440bb1d78a14cf9e7-text/javascript"></script> 
+2086.	<script type="10734d1440bb1d78a14cf9e7-text/javascript">  
+2087.		var SSID = "bitcoinminings_"; 
+2088.		</script> 
+2089.	</head> 
+2090.	<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="10734d1440bb1d78a14cf9e7-|49"></script><body onload="if (self != top) top.location=self.location; ( _getCookie('HELP-WINDOWS') != 1 ? _setCookie('HELP-WINDOWS',1,7) ($('#helpModal').modal('show')) : '' ); "> 
+2091.	<div class="modal fade" id="helpModal" tabindex="-1" role="dialog"> 
+2092.	<div class="modal-dialog" role="document"> 
+2093.	<div class="modal-content"> 
+2094.	<div class="modal-header"> 
+2095.	<h5 class="modal-title">How does the system work?</h5> 
+2096.	<button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+2097.	<i class="mdi mdi-close"></i> 
+2098.	</button> 
+2099.	</div> 
+2100.	<div class="modal-body"> 
+2101.	<p>You can enable and disable display cards by dragging and dropping them.</p> 
+2102.	<a href="https://i.ibb.co/tctN4r8/bitcoin-mining-help.gif" target="_blank"><img src="https://i.ibb.co/tctN4r8/bitcoin-mining-help.gif" width="100%" height="100%" alt="Bitcoin Mining Help" /></a> 
+2103.	<center><small><i class="mdi mdi-magnify-plus-outline"></i>Click on the image to enlarge. </small></center> 
+2104.	</div> 
+2105.	<div class="modal-footer"> 
+2106.	<button type="button" class="btn btn-danger " data-dismiss="modal">Close</button> 
+2107.	</div> 
+2108.	</div> 
+2109.	</div> 
+2110.	</div> 
+2111.	<div class="container mt-4"> 
+2112.	<div class="row"> 
+2113.	<div class="col-md-7 col-lg-6 mobile"> 
+2114.	<div class="card card-nav-tabs"> 
+2115.	<div class="card-header card-header-info"> 
+2116.	<div class="nav-tabs-navigation menu"> 
+2117.	<div class="nav-tabs-wrapper"> 
+2118.	<ul class="nav nav-tabs" data-tabs="tabs"> 
+2119.	<li class="nav-item">
+2120.	<a class="nav-link active" href="https:saadbitcoin/
+2121.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/dashboard/"> 
+2122.	<i class="mdi mdi-monitor-dashboard"></i>DASHBOARD 
+2123.	</a> 
+2124.	</li> 
+2125.	<li class="nav-item"> 
+2126.	<a class="nav-link " href="https:saadbitcoin/
+2127.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/market/"> 
+2128.	<i class="mdi mdi-shopify"></i>MARKET 
+2129.	</a> 
+2130.	</li> 
+2131.	<li class="nav-item"> 
+2132.	<a class="nav-link " href="https:saadbitcoin/ 
+2133.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/references/"> 
+2134.	<i class="mdi mdi-account-convert"></i>REFERENCES 
+2135.	</a> 
+2136.	</li> 
+2137.	<li class="nav-item"> 
+2138.	<a class="nav-link " href="https:saadbitcoin /
+2139.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/settings/"> 
+2140.	<i class="mdi mdi-settings"></i>SETTINGS 
+2141.	</a> 
+2142.	</li> 
+2143.	<li class="nav-item"> 
+2144.	<a class="nav-link " href="https:saadbitcoin /
+2145.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/payments/"> 
+2146.	<i class="mdi mdi-database"></i>PAYMENTS 
+2147.	</a> 
+2148.	</li> 
+2149.	<li class="nav-item"> 
+2150.	<a class="nav-link " href="https:saadbitcoin /
+2151.	1cahmedSAAD195899esraaSAAD15801FATMAjmela196505XYZ/bitcoin-minings/logout/">
+2152.	<i class="mdi mdi-exit-run"></i>LOGOUT 
+2153.	</a> 
+2154.	</li> 
+2155.	</ul> 
+2156.	</div> 
+2157.	</div> 
+2158.	</div> 
+2159.	<div class="card-body"> 
+2160.	<div class="user-profil mt-2"> 
+2161.	<div> 
+2162.	<span class="font-weight-bold mr-1">EARNINGS:</span><span class="mr-1" id="__ajaxUserEarnings"> 
+2163.	100.11283401 </span> BTC 
+2164.	</div> 
+2165.	<div> 
+2166.	<span class="font-weight-bold mr-1">LEVEL:</span><span id="__ajaxUserLevel"> 
+2167.	8 </span> 
+2168.	</div> 
+2169.	</div> 
+2170.	<div id="time-box" class="mt-2" data-toggle="tooltip" data-placement="top" title="Remaining Progress 354.06176436 / 0.00000000"> 
+2171.	<div class="progress progress-line-info mb-1" style="height:15px;"> 
+2172.	<div id="__ajaxUserPercentValue" class="progress-bar progress-bar-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;">100%</div> 
+2173.	</div> 
+2174.	</div> 
+2175.	<button data-toggle="modal" data-target="#helpModal" type="button" class="btn btn-info" style="min-height: 45px;font-weight: 500;padding: 5px 15px;font-size: .85rem;"> <i class="mdi mdi-help-circle"></i><div class="ripple-container"></div><div class="ripple-container"></div></button> 
+2176.	<button type="button" class="btn btn-success btn-mining-start float-right" id="mining-button"> 
+2177.	<i class="mdi mdi-speedometer"></i> START MINING 
+2178.	</button> 
+2179.	<div style="margin-top:10px;"> 
+2180.	<script type="10734d1440bb1d78a14cf9e7-text/javascript">(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',3744883,document.body||document.documentElement)</script><script type="10734d1440bb1d78a14cf9e7-text/javascript">(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://iclickcdn.com/tag.min.js',3744888,document.body||document.documentElement)</script> </div> 
+2181.	</div>
+2182.	</div> 
+2183.	<div class="card" id="maximum-drag"> 
+2184.	<div id="status-time" class="progress progress-line-info mb-1" style="height:5px;background: rgba(0, 0, 0, 0.20); display:none;"> 
+2185.	<div class="progress-bar progress-ba-success progress-bar-striped progress-bar-animated" style="width: 0%;"></div> 
+2186.	</div> 
+2187.	<div class="alert alert-info" style="padding: 10px;text-align: center;opacity: 0.7;"> 
+2188.	<div class="container"> 
+2189.	<b>TIP:</b>With the bitcoin you earn, you can proceed very fast by buying new graphics cards. 
+2190.	</div> 
+2191.	</div> 
+2192.	<div class="p-3"> 
+2193.	<div class="title-box"> 
+
+974.	2021-01-15 00:04:56> Program: Starting install, writing to C:\Users\hp\AppData\Local\SquirrelTemp
+975.	2021-01-15 00:04:56> Program: About to install to: C:\Users\hp\AppData\Local\WhatsApp
+976.	2021-01-15 00:04:56> Program: Install path C:\Users\hp\AppData\Local\WhatsApp already exists, burning it to the ground
+977.	2021-01-15 00:04:56> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\hp\AppData\Local\WhatsApp\packages\.betaId'.
+978.	   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+979.	   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+980.	   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share
